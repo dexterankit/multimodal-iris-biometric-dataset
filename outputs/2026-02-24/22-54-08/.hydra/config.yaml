@@ -1,0 +1,25 @@
+data:
+  base_path: data/raw/IRIS and FINGERPRINT DATASET
+  processed_dir: data/processed
+  manifest_path: data/manifest.parquet
+  fp_size:
+  - 128
+  - 128
+  iris_size:
+  - 64
+  - 64
+  num_workers: 4
+  val_split: 0.2
+  seed: 42
+  fp_pick: first
+  iris_pick: first
+model:
+  num_classes: 45
+  embedding_dim: 128
+  freeze_backbone: true
+training:
+  lr: 0.001
+  epochs: 5
+  batch_size: 8
+  seed: 42
+  checkpoint_dir: outputs/checkpoints

@@ -1,0 +1,4 @@
+- +fp=data/processed/fingerprints/1.bmp
+- +left=data/processed/left/1.bmp
+- +right=data/processed/right/1.bmp
+- +ckpt=outputs/checkpoints/best.pt

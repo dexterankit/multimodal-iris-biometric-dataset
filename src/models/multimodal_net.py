@@ -10,7 +10,9 @@ Architecture:
 """
 
 from typing import Tuple
-
+import ssl
+# Configure SSL to ignore certificate errors
+ssl._create_default_https_context = ssl._create_unverified_context
 import torch
 import torch.nn as nn
 from torchvision import models
