@@ -1,0 +1,13 @@
+torch==2.8.0
+torchvision==0.23.0
+Pillow
+ray
+pyarrow
+hydra-core
+omegaconf
+numpy
+tqdm
+ruff
+pytest
+pytest-cov
+ipykernel

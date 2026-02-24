@@ -1,0 +1,5 @@
+﻿lr: 0.0001
+epochs: 50
+batch_size: 8
+seed: 42
+checkpoint_dir: "outputs/checkpoints"

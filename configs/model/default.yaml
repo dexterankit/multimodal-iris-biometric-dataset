@@ -1,0 +1,3 @@
+﻿num_classes: 45
+embedding_dim: 128
+freeze_backbone: true
